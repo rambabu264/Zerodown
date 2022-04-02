@@ -15,7 +15,6 @@ click==8.0.3
 cloudpickle==2.0.0
 colorama==0.4.4
 cramjam==2.5.0
-dask==2022.3.0
 dask-glm==0.2.0
 dask-ml==2022.1.22
 debugpy==1.6.0
