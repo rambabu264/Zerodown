@@ -13,7 +13,8 @@ def load_data():
     data = pd.read_csv('data_week_1.tsv',sep='\t')
     return data
 
-df = load_data()
+uploaded_file = st.file_uploader("Choose a CSV file")
+df = load_data(uploaded_file)
 
 
     # def line_chart(df,column_attr="total_homes_sold"):
@@ -119,3 +120,5 @@ with col2:
     )
 
     st.plotly_chart(fig, use_container_width= True)
+         
+
