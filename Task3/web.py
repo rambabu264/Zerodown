@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 
 
 st.set_page_config(layout="wide")
-st.title("US Housing Market Dashboard")
+st.title("US Housing Market Dynamics")
 
 
 @st.cache
@@ -30,7 +30,7 @@ df = load_data(uploaded_file)
 
 #st.write(df)
 
-st.header("US MAP")
+st.header("Houses added for each states")
 k = df[['state','total_new_listings']].groupby(['state'],as_index=False).sum()
 k = k[:-1]
 fig = px.choropleth(k,
