@@ -8,16 +8,12 @@ import plotly.graph_objects as go
 st.set_page_config(layout="wide")
 st.title("US Housing Market Dashboard")
 
-
 @st.cache
-def load_data(uploaded_file):
-    data = pd.read_csv(uploaded_file,sep='\t')
+def load_data():
+    data = pd.read_csv('data_week_1.tsv',sep='\t')
     return data
 
-uploaded_file = st.selectbox(
-     'Choose your file?',
-     ('data_week_1.tsv','None'))
-df = load_data(uploaded_file)
+df = load_data()
 
 
     # def line_chart(df,column_attr="total_homes_sold"):
