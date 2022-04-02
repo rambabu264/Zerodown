@@ -20,7 +20,7 @@ dask-ml==2022.1.22
 debugpy==1.6.0
 decorator==5.1.1
 defusedxml==0.7.1
-distributed==2022.3.0
+distributed==2022.2.0
 entrypoints==0.4
 executing==0.8.3
 fastparquet==0.8.0
