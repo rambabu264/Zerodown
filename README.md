@@ -22,7 +22,6 @@ MongoDB Atlas link :https://charts.mongodb.com/charts-project-0-hugwu/public/das
 ![stream1](https://user-images.githubusercontent.com/55224395/161404283-712a9aaf-b03b-420c-a533-f47c252fd556.png)
 ![stream2](https://user-images.githubusercontent.com/55224395/161404323-38e6a1f5-3d35-4dac-a3c2-90382df2b778.png)
 ![stream3](https://user-images.githubusercontent.com/55224395/161404328-314aa5cd-3b9f-43f4-b7d0-0b4c6de934e1.png)
-![stream4](https://user-images.githubusercontent.com/55224395/161404348-a6ba020d-f151-4c37-849a-9e462aff6624.png)
 ![stream5](https://user-images.githubusercontent.com/55224395/161404341-2ad3e336-5b4c-4316-8ae5-a9e945b46f04.png)
 
 print of the dashboard has been uploaded along,couldn't host due to data set being huge.:)
