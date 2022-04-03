@@ -20,7 +20,7 @@ MongoDB Atlas link :https://charts.mongodb.com/charts-project-0-hugwu/public/das
 
 Initially Zerodown_task3.ipynb file has to be executed which removes the redundant data.
 then run the following command in the project terminal 
-			"streamlit run app.py" 
+			"streamlit run web.py" 
 , before that make sure all dependencies are installed and run the command
 			"pip install -p reqirement.txt"
 			
